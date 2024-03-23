@@ -32,6 +32,11 @@ h1 {
   transform: scale(1.2);
   
 }
+
+.language-buttons button.selected-language {
+  background-color: #08abb1; 
+  color: #ffffff;
+}
 .pokemon-list {
   display: flex;
   flex-wrap: wrap;
@@ -67,6 +72,9 @@ h1 {
   transform: scale(1.2);
   
 }
+.pagination{
+  margin-bottom: 20px;
+}
 
 .pagination button {
   margin: 0 5px;
@@ -96,3 +104,4 @@ h1 {
 .pokemon-name {
   font-weight: bold;
 }
+

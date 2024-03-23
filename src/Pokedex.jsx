@@ -49,7 +49,7 @@ function Pokedex() {
           className={currentPage === page + 1 ? "current-page-button" : ""}
           >
             {page + 1}
-        </button>
+      </button>
   ))}
   <button onClick={() => handlePagination(currentPage + 1)} disabled={currentPage === totalPages}>Next</button>
 </div>

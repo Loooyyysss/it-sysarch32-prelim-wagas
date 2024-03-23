@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Header() {
-  return <h1>Pokedex</h1>;
+  return <h1>Prelim Exam</h1>;
 }
 
 export default Header;
